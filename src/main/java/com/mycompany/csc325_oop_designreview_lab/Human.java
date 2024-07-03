@@ -19,6 +19,12 @@ public abstract class Human {
 		this.age = age;
 	}
 
+	public Human() {
+		name = null;
+		address = null;
+		age = 0;
+	}
+
 	public String getName() {
 		return name;
 	}
